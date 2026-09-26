@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+ int n,smallest;
+ scanf("%d",&n);
+ int A[100];
+ for(int i=0;i<n;i++)
+ {
+  scanf("%d",&A[i]);
+  }
+  smallest=A[0];
+  for(int i=0;i<n;i++)
+  {
+   int k=A[i];
+   if(smallest>k)
+   {
+    smallest=k;
+    }
+    }
+    printf("%d",smallest);
+    return 0;
+    }
+   
+   
